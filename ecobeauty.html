@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marie vikström</title>
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/logga.png">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Core CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- General styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Typsnitt -->
+    <link href='https://fonts.googleapis.com/css?family=Gloria%20Hallelujah' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+</head>
+
+<body>
+    <!--============================
+          navigation
+     =======================-->
+    <header>
+        <!--Berättar för classen att det är en navigation, samt att den ska va responsiv för mobilformat-->
+        <nav class="navbar navbar-expand-md mt-4">
+            <div class="container">
+                <!--skapar hamburgermeny för mobil-->
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html" class="navbar-brand me-auto fw-bold" style="font-size: 15px;">
+                    marie vikström
+                </a>
+                <!--berättar vilken meny som ska fällas ut och ihop igen, kopplat till target, allt inom div kommer fällas ut o in-->
+                <div class="collapse navbar-collapse ml-auto" id="navbarNavDropdown">
+                    <!--kopplar ihop med navigationen genom "navbar"-->
+                    <ul class="navbar-nav ms-auto" style="font-size: 15px;">
+                        <!--länk till hem-->
+                        <li class="nav-item pe-2"> <a href="index.html" class="nav-link">mina arbeten</a></li>
+                        <!-- länk till om oss-->
+                        <li class="nav-item"><a href="contact.html" class="nav-link ">kontakt</a></li>
+                        <li class="nav-item mt-auto mb-auto p-2 ps-4"><a
+                                href="https://www.linkedin.com/in/marievikstrom/"><i
+                                    class="fa-brands fa-linkedin-in icons"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--==============
+        intro
+    =================-->
+    <section class="container text-center my-5 pt-5">
+        <h1 class="fw-bold h4">Webbutik för klimatsmarta produkter</h1>
+        <p class="col-6 mx-auto mt-4">EcoBeauty är en webbutik för klimatsmarta hud- och skönhetsprodukter. Detta
+            projekt har utförts som ett grupparbete på Högskolan Kristianstad.</p>
+    </section>
+    <section class="container col-6">
+        <h2 class="h5 fw-bold py-3">Uppgiften</h2>
+        <p>Att skapa en responsiv webbutik för klimatsmarta varor, som tillämpar HTML/CSS samt PHP/MySQL. Arbetet
+            inkluderade även design av företagsidentitet. </p>
+        <h2 class="h5 fw-bold py-3">Designkoncept</h2>
+        <p>Designkonceptet är centrerat kring idén om hållbar skönhet och naturens förmåga att förbättra hälsa och göra
+            en positiv inverkan på miljön. Konceptet syftar till att skapa en visuellt tilltalande och användarvänlig
+            hemsida som reflekterar ett engagemang för hållbarhet, etiska tillverkningsmetoder och klimatsmart hudvård.
+        </p>
+    </section>
+    <div class="container text-center mt-5 pt-3">
+        <img src="assets/images/ecobeauty_pages.png" alt="">
+    </div>
+    <section class="container col-6 py-5">
+        <h2 class="h5 fw-bold py-3">Responsivitet</h2>
+        <p>För att kunna anpassas till så många användare som möjligt har hemsidan gjorts responsiv.</p>
+    </section>
+    <div class="container text-center ">
+        <img src="assets/images/ecobeauty_responsive.png" alt="">
+    </div>
+    <!--==============
+        du kanske också gillar
+    =================-->
+    <section class="container mt-5 pt-5">
+        <h3 class="fw-bold h6 mb-0">Du kanske också gillar</h3>
+        <!-- Topic Cards -->
+        <div id="cards_landscape_wrap-2">
+            <div class="container px-0 py-0">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <a href="digitaltwin.html">
+                            <div class="card-flyer">
+                                <div class="text-box">
+                                    <div class="image-box">
+                                        <img src="assets/images/digitaltvilling.png" alt="" />
+                                    </div>
+                                    <div class="text-container">
+                                        <h6>Mobil applikation - Digital tvilling för växthus</h6>
+                                        <p>2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!--==============
+        footer
+    =================-->
+    <footer class="container mt-5 pt-5">
+        <div class="justify-content-center border-top text-center">
+            <p class="my-5" style="font-size: 12px;">copyright @ 2023</p>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>

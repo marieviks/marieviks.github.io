@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marie vikström</title>
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/logga.png">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Core CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- General styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Typsnitt -->
+    <link href='https://fonts.googleapis.com/css?family=Gloria%20Hallelujah' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+</head>
+
+<body>
+    <!--============================
+          navigation
+     =======================-->
+    <header>
+        <!--Berättar för classen att det är en navigation, samt att den ska va responsiv för mobilformat-->
+        <nav class="navbar navbar-expand-md mt-4">
+            <div class="container">
+                <!--skapar hamburgermeny för mobil-->
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html" class="navbar-brand me-auto fw-bold" style="font-size: 15px;">
+                    marie vikström
+                </a>
+                <!--berättar vilken meny som ska fällas ut och ihop igen, kopplat till target, allt inom div kommer fällas ut o in-->
+                <div class="collapse navbar-collapse ml-auto" id="navbarNavDropdown">
+                    <!--kopplar ihop med navigationen genom "navbar"-->
+                    <ul class="navbar-nav ms-auto" style="font-size: 15px;">
+                        <!--länk till hem-->
+                        <li class="nav-item pe-2"> <a href="index.html" class="nav-link active">mina arbeten</a></li>
+                        <!-- länk till kontakt-->
+                        <li class="nav-item"><a href="contact.html" class="nav-link">kontakt</a></li>
+                        <!-- länkar till externa sidor -->
+                        <li class="nav-item mt-auto mb-auto p-2 ps-4"><a
+                                href="https://www.linkedin.com/in/marievikstrom/"><i
+                                    class="fa-brands fa-linkedin-in icons"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--==============
+        introduktion
+    =================-->
+    <section class="container text-center my-5 pt-5">
+        <h1 class="fw-bold">Hej, Marie här! 👋</h1>
+        <p class="col-6 mx-auto mt-4">Jag är en digital design-student bosatt i Stockholm, med passion för UX/UI-design
+            och att
+            kunna skapa
+            användarvänliga och tilltalande upplevelser.</p>
+        <p>Studerar för tillfället på Högskolan Kristianstad.</p>
+    </section>
+    <!--==============
+        arbeten
+    =================-->
+    <!-- Topic Cards -->
+    <div id="cards_landscape_wrap-2">
+        <div class="container ">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="ecobeauty.html">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/images/ecobeauty_icon.png" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Webbutik för klimatsmarta produkter</h6>
+                                    <p>2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="digitaltwin.html">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/images/digitaltvilling.png" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Mobil applikation - Digital tvilling för växthus</h6>
+                                    <p>2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="container mt-5 pt-5">
+        <div class="justify-content-center border-top text-center">
+            <p class="my-5" style="font-size: 12px;">copyright @ 2023</p>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
